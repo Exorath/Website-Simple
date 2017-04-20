@@ -8,7 +8,7 @@ spec:
   ports:
     - port: 5432
   selector:
-    app: serverscalingservice
+    app: exosite-postgres
   type: ClusterIP
 ---
 apiVersion: extensions/v1beta1
