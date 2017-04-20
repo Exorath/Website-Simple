@@ -1,9 +1,9 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: exosite_postgres
+  name: exosite-postgres
   labels:
-    app: exosite_postgres
+    app: exosite-postgres
 spec:
   strategy:
     type: Recreate
@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: exosite_postgres
+        app: exosite-postgres
     spec:
       containers:
       - name: discourse
