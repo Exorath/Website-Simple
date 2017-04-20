@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: discourse
-        image: bitnami/discourse
+        image: postgres
         ports:
         - containerPort: 5432
         env:
